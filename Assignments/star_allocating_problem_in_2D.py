@@ -25,7 +25,7 @@ def generate_stars_coord(num_stars, min_distance=5000):
 
         # get the last star
         for star in stars:
-            if (distance := calculate_distance(star[0], star[1], x, y)) < min_distance:
+            if (calculate_distance(star[0], star[1], x, y)) < min_distance:
                 break
         else:
             stars.append((x, y))
