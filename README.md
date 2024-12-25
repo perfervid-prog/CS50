@@ -78,3 +78,54 @@ plt.show()
 - Scatter plot for star positions
 - Reference circle with 5000-unit radius
 - Equal aspect ratio for accurate distance representation
+
+
+## Installation
+
+### Prerequisites
+- Python 3.9 or higher
+- Packages (numpy, matplotlib)
+- Virtual environment tool (e.g., `venv` or `virtualenv`)
+
+### Steps
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/perfervid-prog/CS50.git
+   cd CS50
+   ```
+2. **Create a virtual enviroment (use cmd)**
+
+    ```bash
+    python -m venv env
+    source env/bin/activate    # For Linux/macOS
+    env\Scripts\activate       # For Windows
+    ```
+
+3. **Install Dependencies**<br>
+    Use the provided `requirements.txt` file to install the necessary python packages.
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the code**<br>
+
+    Now, there you go. Launch the Streamlit app:
+
+    ```bash
+    python Assignments/star_allocating_problem_in_2D.py
+    ```
+---
+
+## Project Structure
+
+```bash
+CS50/
+│
+├── Assignments/
+│   ├── star_allocating_problem_in_2D.py
+├── requirements.txt           # Required Python packages
+├── README.md                  # Project documentation
+```
