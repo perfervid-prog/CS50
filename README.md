@@ -58,3 +58,23 @@ plt.legend()
 plt.axis('equal')  # Ensures correct aspect ratio for visualization
 plt.show()
 ```
+
+## Implementation Details
+
+### Key Functions
+
+1. `calculate_distance(x1, y1, x2, y2)`
+   - Calculates Euclidean distance between two points
+   - Returns distance as a float value
+
+2. `generate_stars_coord(num_stars, min_distance=5000)`
+   - Generates star coordinates using random sampling
+   - Validates minimum distance requirement
+   - Returns list of (x,y) coordinate tuples
+
+### Visualization Components
+
+- Uses matplotlib for plotting
+- Scatter plot for star positions
+- Reference circle with 5000-unit radius
+- Equal aspect ratio for accurate distance representation
